@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Form = ({setInputText}) => {
+const Form = ({ setInputText, todos, setTodos, inputText }) => {
   const inputTextHandler = (e) => {
     console.log(e.target.value);
     setInputText(e.target.value);
@@ -9,7 +9,12 @@ const Form = ({setInputText}) => {
 
   const submitTodoHandler = (e) => {
     e.preventDefault();
-    console.log('hi');
+    setTodos([
+      // use spread operator if todos already exist in the list, then pass them
+      ...todos, 
+      // if we have a new todo, add it
+      {text: inputText, completed: false, id: Math.random() * 1000}
+    ]);
   };
 
   return (
