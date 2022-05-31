@@ -8,7 +8,7 @@ const TodoList = ({todos}) => {
       <ul className="todo-list">
       {/* for each to do that we have from the state we're gonna render out a todo component */}
         {todos.map(todo => (
-                <Todo text={todo.text}/>
+                <Todo key={todo.id} text={todo.text}/>
         ))}
       </ul>
     </div>
