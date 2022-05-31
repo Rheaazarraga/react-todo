@@ -2,10 +2,11 @@
 <p align="center"> This project is a minimalist-styled To Do List to practice with React and review core concepts.
 
 
-![todolist1](https://user-images.githubusercontent.com/84409001/171094828-1dd1162c-a3af-4c87-b336-db9c6ef9fd32.png)
-![todolist2](https://user-images.githubusercontent.com/84409001/171094833-d21d1063-7169-48d2-b088-7478160c6b03.png)
-![todolist3](https://user-images.githubusercontent.com/84409001/171094835-ba0574c5-4f27-49d8-b84b-9357f29c4803.png)
-![todolist4](https://user-images.githubusercontent.com/84409001/171094836-85338d66-2119-4f07-a52e-62aed4b9c044.png)
+![todolist1](https://user-images.githubusercontent.com/84409001/171286707-2148a839-9a48-4bc7-b442-0adc7d935e83.png)
+![todolist2](https://user-images.githubusercontent.com/84409001/171286713-16ec707e-1549-489a-a4d4-dd52c55456fe.png)
+![todolist3](https://user-images.githubusercontent.com/84409001/171286715-bba90b6a-edc9-4920-b67c-c672e3128fd7.png)
+![todolist4](https://user-images.githubusercontent.com/84409001/171286717-7b4c718c-b680-41d7-81ef-c06ffabd6d95.png)
+
 
 
 Featured concepts include:
