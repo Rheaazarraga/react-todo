@@ -65,7 +65,7 @@ form button:hover {
   flex: 1;
 }
 
-.trash-btn,
+.delete-btn,
 .complete-btn {
   background: #ff6f47;
   color: white;
