@@ -44,7 +44,10 @@ function App() {
   // save to local storage for basic persistence on the web app
   // adding to local storage by saving and pushing what we have to our state
   const saveToLocalTodos = () => {
-    localStorage.setItem('todos', JSON.stringify(todos));
+    if(todos.length > 0){
+      localStorage.setItem('todos', JSON.stringify(todos));
+    }
+
   };
 
   // checking if there's anything in local storage or not
