@@ -131,9 +131,20 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
-/* Transition */
-/*
-.select:hover::after {
-  transform: scale(1.5);
+
+@media only screen and (max-width: 700px) {
+  form {
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .todo-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+  }
 }
-*/
