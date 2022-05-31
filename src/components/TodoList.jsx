@@ -6,7 +6,10 @@ const TodoList = ({todos}) => {
   return (
     <div className="todo-container">
       <ul className="todo-list">
-      <Todo />
+      {/* for each to do that we have from the state we're gonna render out a todo component */}
+        {todos.map(todo => (
+                <Todo text={todo.text}/>
+        ))}
       </ul>
     </div>
   );
